@@ -1,3 +1,5 @@
 ## Personal Website
-Written in React.
-Deployed using Github Pages.
+Language: Typescript
+Development Libraries: React, React Router, Redux
+Testing Libraries: Jest
+Deployment: Github Pages
