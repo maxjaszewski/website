@@ -1,8 +1,9 @@
-import { NavBar, View } from "./App.styles";
+import { IndentedWrapper, NavBar, View } from "./App.styles";
 import { useRef } from "react";
 import About from "./About";
 import { Element } from "react-scroll";
 import SectionLink from "./Link";
+import Tetris from "./Tetris";
 
 function App() {
   const aboutRef = useRef();
@@ -12,6 +13,9 @@ function App() {
       <NavBar>
         <SectionLink toItem="about">About</SectionLink>
         <SectionLink toItem="project">Projects</SectionLink>
+        <IndentedWrapper>
+          <SectionLink toItem="tetris">Tetris</SectionLink>
+        </IndentedWrapper>
       </NavBar>
 
       <View>
@@ -19,7 +23,12 @@ function App() {
           <About />
         </Element>
         <Element name="project">
-          <h1> Project </h1>
+          <h1>Projects</h1>
+          <Element name="tetris">
+            <h2>Tetris</h2>
+            <Tetris/>
+          </Element>
+          
         </Element>
 
       </View>

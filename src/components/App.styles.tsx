@@ -9,10 +9,13 @@ export const NavBar = styled.div`
     left: 0;
     background-color: #919191;
     overflow-x: hidden;
-    padding-top: 20px;      
+    padding-top: 20px;   
 `
 
 export const View = styled.div`
     margin-left: 200px;
-    padding: 25px
+    padding-left: 25px;
+`
+export const IndentedWrapper = styled.div`
+    margin-left: 25px;
 `

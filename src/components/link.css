@@ -1,8 +1,9 @@
 .link {
   padding: 5%;
-  width: 100%;
+  padding-right: 0%;
+  width: 95%;
   display: block;
   &:hover {
-    background-color: #9ccce8;
+    background-color: #c4c4c4;
   }
 }
