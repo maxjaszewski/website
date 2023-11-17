@@ -1,11 +1,11 @@
-import "./Header.css";
+import { HeaderWrapper } from "./Header.styles";
 
 
-export default function Header(): React.JSX.Element {
+export default function Header() {
   return (
-    <div className="Header">
-      <h1>Max Jaszewski</h1>
-      <h2>Software Engineer</h2>
-    </div>
+    <HeaderWrapper>
+      <h1 style={{margin: 0, padding: "5px"}}>Max Jaszewski</h1>
+      <h2 style={{margin: 0, padding: "5px"}}>Software Engineer</h2>
+    </HeaderWrapper>
   );
 }

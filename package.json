@@ -11,12 +11,16 @@
     "@types/node": "^20.9.1",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/react-scroll": "^1.8.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
+    "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "clean": "rm -rf node_modules",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "typescript": "^5.2.2"
+    "@types/react-scroll": "^1.8.10",
+    "gh-pages": "^6.0.0"
   }
 }
