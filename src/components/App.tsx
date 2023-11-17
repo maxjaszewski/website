@@ -4,6 +4,7 @@ import About from "./About";
 import { Element } from "react-scroll";
 import SectionLink from "./Link";
 import Tetris from "./Tetris";
+import Parser from "./Parser/Parser";
 
 function App() {
   const aboutRef = useRef();
@@ -15,6 +16,9 @@ function App() {
         <SectionLink toItem="project">Projects</SectionLink>
         <IndentedWrapper>
           <SectionLink toItem="tetris">Tetris</SectionLink>
+          <SectionLink toItem="parser">
+            Javascript Parser in Haskell
+          </SectionLink>
         </IndentedWrapper>
       </NavBar>
 
@@ -26,11 +30,12 @@ function App() {
           <h1>Projects</h1>
           <Element name="tetris">
             <h2>Tetris</h2>
-            <Tetris/>
+            <Tetris />
           </Element>
-          
+          <Element name="parser">
+            <Parser />
+          </Element>
         </Element>
-
       </View>
     </div>
   );
