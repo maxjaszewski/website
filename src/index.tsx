@@ -10,7 +10,6 @@ const rootElem = document.getElementById('root');
 if (!rootElem) throw new Error("Failed to find root element");
 const root = ReactDOM.createRoot(rootElem);
 
-
 root.render(
   <React.StrictMode>
     <App/>

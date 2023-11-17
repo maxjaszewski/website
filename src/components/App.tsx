@@ -1,4 +1,3 @@
-import Header from "./Header";
 import { NavBar, View } from "./App.styles";
 import { useRef } from "react";
 import About from "./About";
@@ -12,17 +11,17 @@ function App() {
     <div className="App">
       <NavBar>
         <SectionLink toItem="about">About</SectionLink>
-        <SectionLink toItem="about">Projects</SectionLink>
+        <SectionLink toItem="project">Projects</SectionLink>
       </NavBar>
 
       <View>
-        <Header />
         <Element name="about">
           <About />
         </Element>
         <Element name="project">
           <h1> Project </h1>
         </Element>
+
       </View>
     </div>
   );
