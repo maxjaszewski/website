@@ -1,5 +1,4 @@
 import { IndentedWrapper, NavBar, View } from "./App.styles";
-import { useRef } from "react";
 import About from "./About";
 import { Element } from "react-scroll";
 import SectionLink from "./Link";
@@ -7,7 +6,6 @@ import Tetris from "./Tetris";
 import Parser from "./Parser/Parser";
 
 function App() {
-  const aboutRef = useRef();
 
   return (
     <div className="App">
