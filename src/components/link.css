@@ -1,9 +1,0 @@
-.link {
-  padding: 5%;
-  padding-right: 0%;
-  width: 95%;
-  display: block;
-  &:hover {
-    background-color: #c4c4c4;
-  }
-}
