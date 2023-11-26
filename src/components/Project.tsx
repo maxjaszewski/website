@@ -15,18 +15,19 @@ export default function Project({
 }) {
   return (
     <ProjectWrapper>
-      {image ? <div style={{flex: 15}}>
-        <img style={{ maxWidth: "100%" }} src={image} alt={title} />
-      </div>
-      : null}
-      <div style={{flex: 5}}></div>
-      <div style={{flex: 80}}>
+      {image ? (
+        <div style={{ flex: 15 }}>
+          <img style={{ maxWidth: "100%" }} src={image} alt={title} />
+        </div>
+      ) : null}
+      <div style={{ flex: 5 }}></div>
+      <div style={{ flex: 80 }}>
         <h3>
           <a href={link}>{title}</a>
         </h3>
         <p>{description}</p>
         {source ? (
-          <p style={{fontWeight: "bold"}}>
+          <p style={{ fontWeight: "bold" }}>
             source: <a href={source}>{source}</a>
           </p>
         ) : null}
