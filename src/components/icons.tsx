@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaGithubSquare, FaGithubAlt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const SocialMediaIcons: React.FC = () => {
     const socialMediaPlatforms = [
