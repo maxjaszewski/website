@@ -19,7 +19,7 @@ const projects = [
     Deployed on Github Pages and built using Github Actions.
     `,
     link: "https://maxjaszewski.github.io/website",
-    source: "https:github.com/maxjaszewski/website",
+    source: "https://github.com/maxjaszewski/website",
   },
 ];
 
