@@ -1,6 +1,7 @@
 import { View } from "./App.styles";
 
 import Project from "./Project";
+import SocialMediaIcons from "./icons";
 
 const projects = [
   {
@@ -29,6 +30,7 @@ function App() {
       <div style={{ flex: 1 }}></div>
       <View>
         <h1>Max Jaszewski</h1>
+        <SocialMediaIcons/>
         <p>
           CS Student at Monash University. Devops Engineer at National Australia
           Bank.
