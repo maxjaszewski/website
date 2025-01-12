@@ -32,10 +32,9 @@ function App() {
         <h1>Max Jaszewski</h1>
         <SocialMediaIcons/>
         <p>
-          CS Student at Monash University. Devops Engineer at National Australia
-          Bank.
-          <br />
-          Interested in Data structures and algorithms.
+          Devops Engineer - National Australia Bank <br />
+          2024 Graduate - Bachelor of Computer Science - Monash University<br />
+          Interested in Data structures and algorithms.<br />
         </p>
         <h2>Projects</h2>
         <div>
