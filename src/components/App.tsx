@@ -8,18 +8,18 @@ const projects = [
     title: "Functional Tetris",
     description: `
     Tetris implementation using Typescript, RxJS library and functional programming style`,
-    link: "https://maxjaszewski.github.io/FunctionalTetris/",
+    link: "https://jaszki.github.io/FunctionalTetris/",
     image: "/website/assets/tetris.png",
-    source: "https://github.com/maxjaszewski/FunctionalTetris",
+    source: "https://github.com/jaszki/FunctionalTetris",
   },
   {
     title: "Task manager",
     description: `
-    Containerised task manager web app built using Typescript, React, Java, Spring and PostgreSQL
+    Containerised full stack web app for task management built using Typescript, React, Java, Spring and PostgreSQL
     `,
     link: undefined,
     image: "/website/assets/task.png",
-    source: "https://github.com/maxjaszewski/Task-Management-Application",
+    source: "https://github.com/jaszki/Task-Management-Application",
   },
 ];
 
@@ -30,10 +30,6 @@ function App() {
       <View>
         <h1>Max Jaszewski</h1>
         <SocialMediaIcons/>
-        <p>
-          Devops Engineer - National Australia Bank <br />
-          2024 Graduate - Bachelor of Computer Science - Monash University<br />
-        </p>
         <h2>Projects</h2>
         <div>
           {projects.map((project) => {
